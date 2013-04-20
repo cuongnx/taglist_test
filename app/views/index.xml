@@ -1,0 +1,6 @@
+<Alloy>
+	<Window>
+		<View id="list_container">
+		</View>
+	</Window>
+</Alloy>

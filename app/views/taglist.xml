@@ -1,0 +1,14 @@
+<Alloy>
+	<ScrollView id="scroll_list">
+		<View id="list_title"></View>
+		<View id="list_content">
+			<View id="left_list">
+			</View>
+			<View id="right_list">
+			</View>
+		</View>
+		<View id="list_footer">
+		</View>
+		<ActivityIndicator id="loading" />
+	</ScrollView>
+</Alloy>

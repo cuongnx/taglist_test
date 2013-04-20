@@ -1,0 +1,18 @@
+<Alloy>
+	<View class="tag_box">
+		<View id="img_container">
+			<ImageView id="tag_img" />
+			<ImageView id="badge_img" />
+		</View>
+		<Label id="tag_desc"></Label>
+		<View class="control">
+			<Label id="retag" class="btn_v"></Label>
+			<Label id="like" class="btn_v"></Label>
+		</View>
+		<View id="tag_user">
+			<ImageView id="tag_user_ava" />
+			<Label id="tagged_lbl"></Label>
+			<Label id="username"></Label>
+		</View>
+	</View>
+</Alloy>

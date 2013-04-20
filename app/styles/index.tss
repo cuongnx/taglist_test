@@ -1,0 +1,11 @@
+"Window": {
+	navBarHidden: true,
+	layout: 'vertical',
+	backgroundColor: "#fff",
+},
+
+"#list_container": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: 0,
+},

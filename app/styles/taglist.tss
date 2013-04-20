@@ -1,0 +1,50 @@
+"ScrollView": {
+	width: Ti.UI.FILL,
+	//height: Ti.UI.SIZE,
+	contentWidth: Alloy.Globals.PLATFORM_WIDTH,
+	contentHeight: Ti.UI.SIZE,
+	scrollType: 'vertical',
+	layout: 'vertical',
+	top: 0,
+	left: 0,
+	showVerticalScrollIndicator: false,
+},
+
+"#list_title": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: "#fff",
+	top: 0,
+},
+
+"#list_content": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: "3dp",
+},
+
+"#left_list": {
+	width: "46%",
+	left: "3%",
+	height: Ti.UI.SIZE,
+	layout: 'vertical',
+	top: 0,
+},
+
+"#right_list": {
+	width: "46%",
+	right: "3%",
+	height: Ti.UI.SIZE,
+	layout: 'vertical',
+	top: 0,
+},
+
+"#list_footer": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: "10dp",
+},
+
+"#loading": {
+	message: " Loading...",
+}
